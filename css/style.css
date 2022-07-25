@@ -3,7 +3,32 @@
   margin: 0px;
   padding: 0px;
 }
-
+.form-control:focus {
+  outline: none;
+}
 .carousel-item {
   background-color: #feeae9;
+}
+.see-more {
+  text-decoration: none;
+}
+.row > .col > .card {
+  background-color: rgb(240, 238, 238);
+  border: none;
+}
+form > input {
+  height: 43px;
+  border: none;
+  background-color: rgb(253, 229, 247);
+  padding-left: 10px;
+  border-radius: 5px 0px 0px 5px;
+}
+form > input:focus {
+  outline: none;
+}
+.footer-btn {
+  padding: 5px 20px;
+  border: none;
+  background-color: rgb(255, 193, 239);
+  border-radius: 0px 5px 5px 0px;
 }
